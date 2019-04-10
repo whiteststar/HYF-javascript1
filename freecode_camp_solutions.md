@@ -288,42 +288,197 @@ lastNameLength = lastName.length;
 
 ## js Exercise 29
 ```javascript
+// Example
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
 
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName;
+
+firstLetterOfLastName = lastName[0];
 
 ```
 
 ## js Exercise 30
 ```javascript
+// Setup
+var myStr = "Jello World";
 
+// Only change code below this line
 
+myStr = "Hello World"; // Fix Me
 ```
 
 ## js Exercise 31
 ```javascript
+// Example
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
 
+// Setup
+var lastName = "Lovelace";
 
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
 ```
 
 ## js Exercise 32
 ```javascript
+// Example
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1];
 
+// Setup
+var lastName = "Lovelace";
 
+// Only change code below this line.
+var lastLetterOfLastName = lastName[lastName.length - 1];
 ```
 
 ## js Exercise 33
 ```javascript
+// Example
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
 
+// Setup
+var lastName = "Lovelace";
 
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 ```
 
 ## js Exercise 34
 ```javascript
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    // Your code below this line
+    result+= "My "+myAdjective+" "+myNoun+" "+myVerb+" very "+myAdverb+".";
 
+    // Your code above this line
+  return result;
+}
 
+// Change the words here to test your function
+wordBlanks("dog", "big", "ran", "quickly");
 ```
 
 ## js Exercise 35
 ```javascript
+// Example
+var ourArray = ["John", 23];
 
+// Only change code below this line.
+var myArray = ["Erhan", 35];
+```
+## js Exercise 36
+```javascript
+// Example
+var ourArray = [["the universe", 42], ["everything", 101010]];
+
+// Only change code below this line.
+var myArray = [[ourArray]];
+```
+
+## js Exercise 37
+```javascript
 
 ```
+
+## js Exercise 38
+```javascript
+
+```
+## js Exercise 39
+```javascript
+
+```
+
+## js Exercise 40
+```javascript
+
+```
+## js Exercise 41
+```javascript
+
+```
+
+## js Exercise 42
+```javascript
+
+```
+
+## js Exercise 43
+```javascript
+
+```
+## js Exercise 44
+```javascript
+
+```
+
+## js Exercise 45
+```javascript
+
+```
+
+## js Exercise 46
+```javascript
+
+```
+
+## js Exercise 47
+```javascript
+
+```
+
+## js Exercise 48
+```javascript
+
+```
+
+## js Exercise 49
+```javascript
+
+```
+
+## js Exercise 50
+```javascript
+
+```
+
+## js Exercise 51
+```javascript
+
+```
+
+## js Exercise 52
+```javascript
+
+```
+
+## js Exercise 53
+```javascript
+
+```
+
+## js Exercise 54
+```javascript
+
+```
+
+
+
+
+
+
+
+
+
+
