@@ -556,45 +556,216 @@ function fun2() {
 
 ## js Exercise 48
 ```javascript
+function myLocalScope() {
+  'use strict'; // you shouldn't need to edit this line
+  var myVar;
+  console.log(myVar);
+}
+myLocalScope();
 
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+
+// Now remove the console log line to pass the test
 ```
 
 ## js Exercise 49
 ```javascript
+// Setup
+var outerWear = "T-Shirt";
 
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = "sweater"
+  
+  
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
 ```
 
 ## js Exercise 50
 ```javascript
+// Example
+function minusSeven(num) {
+  return num - 7;
+}
 
+// Only change code below this line
+
+function timesFive(num) {
+  return num * 5;
+}
+
+console.log(minusSeven(10));
+console.log(timesFive(10));
 ```
 
 ## js Exercise 51
 ```javascript
+// Example
+var sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
 
+// Only change code below this line
+ function addFive() {
+   sum = sum + 5;
+ }
+
+
+// Only change code above this line
+var returnedValue = addFive();
 ```
 
 ## js Exercise 52
 ```javascript
+// Example
+var changed = 0;
 
+function change(num) {
+  return (num + 5) / 3;
+}
+
+changed = change(10);
+
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+
+ var processed = processArg(7);
 ```
 
 ## js Exercise 53
 ```javascript
+function nextInLine(arr, item) {
+  // Your code here
+  arr.push(item);
+  return arr.shift(); // Change this line
+}
 
+// Test Setup
+var testArr = [1,2,3,4,5];
+
+// Display Code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6)); // Modify this line to test
+console.log("After: " + JSON.stringify(testArr));
 ```
 
 ## js Exercise 54
 ```javascript
+function welcomeToBooleans() {
 
+// Only change code below this line.
+
+return true; // Change this line
+
+// Only change code above this line.
+}
 ```
 
+## js Exercise 55
+```javascript
+// Example
+function ourTrueOrFalse(isItTrue) {
+  if (isItTrue) { 
+    return "Yes, it's true";
+  }
+  return "No, it's false";
+}
+
+// Setup
+function trueOrFalse(wasThatTrue) {
+
+  // Only change code below this line.
+  if (wasThatTrue) {
+      return "Yes, that was true"; 
+  }
+  return "No, that was false";
+ 
+  
+  
+  // Only change code above this line.
+
+}
+
+// Change this value to test
+trueOrFalse(true);
+
+```
+notes: why doesnt it return false in all cases?how come false statement is connected to if, its curly craces are closed before false statement?
+
+## js Exercise 56
+```javascript
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Change this value to test
+testEqual(10);  
+
+```
+## js Exercise 57
+```javascript
 
 
+```
+## js Exercise 58
+```javascript
 
 
+```
+## js Exercise 59
+```javascript
 
 
+```
+## js Exercise 60
+```javascript
 
 
+```
+## js Exercise 61
+```javascript
+
+
+```
+## js Exercise 62
+```javascript
+
+
+```
+## js Exercise 63
+```javascript
+
+
+```
+## js Exercise 64
+```javascript
+
+
+```
+## js Exercise 65
+```javascript
+
+
+```
+## js Exercise 66
+```javascript
+
+
+```
 
