@@ -438,36 +438,120 @@ myArray.push (["dog", 3]);
 ```
 ## js Exercise 41
 ```javascript
+// Example
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop(); 
+// removedFromOurArray now equals 3, and ourArray now equals [1,2]
 
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line.
+var removedFromMyArray;
+
+removedFromMyArray = myArray.pop();
 ```
 
 ## js Exercise 42
 ```javascript
+// Example
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line.
+var removedFromMyArray;
+
+removedFromMyArray = myArray.shift();
 
 ```
 
 ## js Exercise 43
 ```javascript
+// Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy"); 
+// ourArray now equals ["Happy", "J", "cat"]
 
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line.
+
+myArray.unshift(["Paul",35]);
 ```
 ## js Exercise 44
 ```javascript
-
+var myList = [
+    ["Bread", 1],
+    ["Chocolate Milk", 6],
+    ["Bananas Kg", 2],
+    ["Eggs", 10],
+    ["Apples kg", 1]
+];
 ```
 
 ## js Exercise 45
 ```javascript
+// Example
+function ourReusableFunction() {
+  console.log("Heyya, World");
+}
 
+ourReusableFunction();
+
+// Only change code below this line
+
+function reusableFunction() {
+    console.log("Hi World");
+}
+reusableFunction();
 ```
 
 ## js Exercise 46
 ```javascript
+// Example
+function ourFunctionWithArgs(a, b) {
+  console.log(a - b);
+}
+ourFunctionWithArgs(10, 5); // Outputs 5
 
+// Only change code below this line.
+
+function functionWithArgs(x,y) {
+  console.log(x+y);
+}
+functionWithArgs(2,4);
 ```
 
 ## js Exercise 47
 ```javascript
+// Declare your variable here
+var myGlobal = 10;
 
+
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal =5
+}
+
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
 ```
 
 ## js Exercise 48
