@@ -1,0 +1,32 @@
+
+SWAPS
+
+1. the First : http://www.pythontutor.com/javascript.html#code=let%20a%20%3D%20%22b%22,%20b%20%3D%20%22a%22%3B%0Alet%20_%20%3D%20'%20'%3B%0A%0A//%20can%20be%20done%20in%203%20lines%0A%0A_%20%3D%20a%3B%0Aa%20%3D%20b%3B%0Ab%20%3D%20_%3B&curInstr=5&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+2. the second :
+http://www.pythontutor.com/javascript.html#code=let%20a%20%3D%20%22c%22,%20b%20%3D%20%22a%22,%20c%20%3D%20%22b%22%3B%0Alet%20_%20%3D%20'%20'%3B%0A%0A//%20can%20be%20done%20in%204%20lines%0A%0A_%20%3D%20a%3B%0Aa%20%3D%20b%3B%0Ab%20%3D%20c%3B%0Ac%20%3D%20_%3B&curInstr=6&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+3. the third :
+http://www.pythontutor.com/javascript.html#code=let%20a%20%3D%20%22d%22,%20b%20%3D%20%22a%22,%20c%20%3D%20%22b%22,%20d%20%3D%20%22c%22%3B%0Alet%20_%20%3D%20'%20'%3B%0A%0A//%20can%20be%20done%20in%205%20lines%0A%0A_%20%3D%20a%3B%0Aa%20%3D%20b%3B%0Ab%20%3D%20c%3B%0Ac%20%3D%20d%3B%0Ad%20%3D%20_%3B%0A&curInstr=7&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+4. the fourth :
+http://www.pythontutor.com/javascript.html#code=let%20a%20%3D%20%22z%22,%20b%20%3D%20%22y%22,%20c%20%3D%20%22x%22,%20d%20%3D%20%22w%22%3B%0Alet%20_%20%3D%20'%20'%3B%0A%0A//%20can%20be%20done%20in%206%20lines%0A_%20%3D%20a%3B%0Aa%20%3D%20d%3B%0Ad%20%3D%20_%0A_%20%3D%20b%0Ab%20%3D%20c%0Ac%20%3D%20_%3B%0A&curInstr=8&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+5. the fifth :
+http://www.pythontutor.com/javascript.html#code=let%20a%20%3D%20%22z%22,%20b%20%3D%20%22y%22,%20c%20%3D%20%22x%22,%20d%20%3D%20%22w%22,%20e%20%3D%20%22v%22%3B%0Alet%20_%20%3D%20'%20'%3B%0A%0A//%20can%20be%20done%20in%206%20lines%0A%0A_%20%3D%20a%3B%0Aa%20%3D%20e%3B%0Ae%20%3D%20_%0A_%20%3D%20b%3B%0Ab%20%3D%20d%3B%0Ad%20%3D%20_%3B%0A&curInstr=8&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+SENTENCES 
+  Without Extra Holders -----
+
+1. the toad reads me
+http://www.pythontutor.com/javascript.html#code=//%20the%20toad%20reads%20me%0A%0A//%20we%20give%20you%20this%0Alet%20_1%20%3D%20%22%20%22,%20_2%20%3D%20%22%20%22,%20_3%20%3D%20%22%20%22,%20_4%20%3D%20%22%20%22,%20_5%20%3D%20%22%20%22%3B%0A%0A//%20--%20you%20write%20this%20--%0A%0A//%20the%0A_1%20%3D%20%22T%22%3B%0A_2%20%3D%20%22H%22%3B%0A_3%20%3D%20%22E%22%3B%0A//%20toad%0A_2%20%3D%20%22O%22%3B%0A_3%20%3D%20%22A%22%3B%0A_4%20%3D%20%22D%22%3B%0A//%20reads%0A_1%20%3D%20%22R%22%3B%0A_2%20%3D%20%22E%22%3B%0A_5%20%3D%20%22S%22%3B%0A//%20me%0A_1%20%3D%20%22M%22%3B%0A_3%20%3D%20%22%20%22%3B%0A_4%20%3D%20%22%20%22%3B%0A_5%20%3D%20%22%20%22%3B&curInstr=14&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+2. eating meat every meal :
+http://www.pythontutor.com/javascript.html#code=//%20eating%20meat%20every%20meal%0A%0A//%20we%20give%20you%20this%0Alet%20_1%20%3D%20'%20',%20_2%20%3D%20'%20',%20_3%20%3D%20'%20',%20_4%20%3D%20'%20',%20_5%20%3D%20'%20',%20_6%3D%20'%20'%3B%0A%0A//%20--%20you%20write%20this%20--%0A%0A//%20eating%0A_1%20%3D%20%22E%22%3B%0A_2%20%3D%20%22A%22%3B%0A_3%20%3D%20%22T%22%3B%0A_4%20%3D%20%22I%22%3B%0A_5%20%3D%20%22N%22%3B%0A_6%20%3D%20%22G%22%3B%0A%0A//%20meat%0A_5%20%3D%20%22%20%22%3B%0A_6%20%3D%20%22%20%22%3B%0A_4%20%3D%20_3%3B%0A_3%20%3D%20_2%3B%0A_2%20%3D%20_1%3B%0A_1%20%3D%20%22M%22%3B%0A%0A//%20every%0A_1%20%3D%20_2%3B%0A_3%20%3D%20_2%3B%0A_2%20%3D%20%22V%22%3B%0A_4%20%3D%20%22R%22%3B%0A_5%20%3D%20%22Y%22%3B%0A%0A//%20meal%0A%0A_1%20%3D%20%22M%22%0A_2%20%3D%20_3%3B%0A_3%20%3D%20%22A%22%3B%0A_4%20%3D%20%22L%22%3B%0A_5%20%3D%20%22%20%22%3B&curInstr=23&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+3. many men may melt my mind :
+http://www.pythontutor.com/javascript.html#code=//%20many%20men%20may%20melt%20my%20mind%0A%0A//%20we%20give%20you%20this%0Alet%20_1%20%3D%20'%20',%20_2%20%3D%20'%20',%20_3%20%3D%20'%20',%20_4%20%3D%20'%20'%3B%0A%0A//%20--%20you%20write%20this%20--%0A%0A//%20many%0A_1%20%3D%20%22m%22%3B%0A_2%20%3D%20%22a%22%3B%0A_3%20%3D%20%22n%22%3B%0A_4%20%3D%20%22y%22%3B%0A%0A//%20men%0A_2%20%3D%20%22e%22%0A_4%20%3D%20%22%20%22%3B%0A%0A//%20may%0A_2%20%3D%22a%22%3B%0A_3%20%3D%20%22y%22%3B%0A%0A//%20melt%0A_2%20%3D%20%22e%22%3B%0A_3%20%3D%20%22l%22%3B%0A_4%20%3D%20%22t%22%3B%0A%0A//%20my%0A_2%20%3D%20%22y%22%3B%0A_3%20%3D%20%22%20%22%3B%0A_4%20%3D%20%22%20%22%3B%0A%0A//%20mind%0A_2%20%3D%20%22i%22%3B%0A_3%20%3D%20%22n%22%3B%0A_4%20%3D%20%22d%22%3B%0A&curInstr=18&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
+4. if fir trees ever fall :
+http://www.pythontutor.com/javascript.html#code=//%20if%20fir%20trees%20ever%20fall%0A%0A//%20we%20give%20you%20this%0Alet%20_1%20%3D%20'%20',%20_2%20%3D%20'%20',%20_3%20%3D%20'%20',%20_4%20%3D%20'%20',%20_5%20%3D%20'%20'%3B%0A%0A//%20--%20you%20write%20this%20--%0A%0A//%20if%0A_1%20%3D%20%22i%22%3B%0A_2%20%3D%20%22f%22%3B%0A%0A//%20fir%0A_1%20%3D%20_2%3B%0A_2%20%3D%20%22i%22%3B%0A_3%20%3D%20%22r%22%3B%0A%0A//%20trees%0A_1%20%3D%20%22t%22%3B%0A_2%20%3D%20_3%3B%0A_3%20%3D%20%22e%22%3B%0A_4%20%3D%20_3%3B%0A_5%20%3D%20%22s%22%0A//%20ever%0A_1%20%3D%20_3%3B%0A_2%20%3D%20%22v%22%3B%0A_4%20%3D%20%22r%22%3B%0A_5%20%3D%20%22%20%22%20%3B%0A//%20fall%0A_1%20%3D%20%22f%22%3B%0A_2%20%3D%20%22a%22%3B%0A_3%20%3D%20%22l%22%3B%0A_4%20%3D%20_3%3B&curInstr=19&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D
+
